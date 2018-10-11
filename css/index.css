@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin'); @import url('https://fonts.googleapis.com/css?family=Russo+One'); @import url('https://fonts.googleapis.com/css?family=Alegreya'); :root {
+    font-family: 'Pangolin', cursive;
+}
+
+
+@media (min-width: 991px) {
+    .basket-text {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .basket-img {
+        display: none;
+    }
+}
+
+
+.navbar-brand {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+.navbar-brand:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ }
+ 
+.carousel-caption h5 {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 2rem;
+    justify-content: center;
+}
