@@ -7,14 +7,7 @@
     margin: auto;
 }
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    margin: 0;
-    z-index: 999999;
-    border-width: 2px;
-}
+
 
 @media (max-width: 361px) {
     .navbar {
@@ -69,7 +62,7 @@ header {
     text-align: center;
 }
 
-.events-all {
+#events {
     background-image: url(../img/backgroundfon.png);
 }
 
@@ -106,7 +99,7 @@ header {
     margin-bottom: 10px;
 }
 
-.services-all {
+#services {
     background-image: url(../img/backgroundfon.png);
 }
 
