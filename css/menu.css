@@ -7,13 +7,11 @@
     margin: auto;
 }
 
-
-
 @media (max-width: 361px) {
     .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -29,26 +27,25 @@
     }
 }
 
-
 body {
     background-image: url(../img/backgroundfon.png);
 }
 
 .navbar-brand {
- -moz-transition: all 1s ease-out;
- -o-transition: all 1s ease-out;
- -webkit-transition: all 1s ease-out;
- }
- 
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
 .navbar-brand:hover {
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
- }
- 
- .container {
-     font-family: 'Pangolin', cursive;
- }
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.container {
+    font-family: 'Pangolin', cursive;
+}
 
 main h2 {
     text-align: center;
@@ -128,20 +125,20 @@ main h2 {
 }
 
 .menu-img a {
- -moz-transition: all 1s ease-out;
- -o-transition: all 1s ease-out;
- -webkit-transition: all 1s ease-out;
- }
- 
-.menu-img a:hover{
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
- }
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
 
-.menu-img:hover .menu-name{
- display: block;
- }
+.menu-img a:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.menu-img:hover .menu-name {
+    display: block;
+}
 
 .menu-name {
     display: none;
@@ -165,18 +162,16 @@ footer {
     justify-content: center;
 }
 
-
-
 footer p {
     margin: auto;
- -moz-transition: all 3s ease-out;
- -o-transition: all 3s ease-out;
- -webkit-transition: all 3s ease-out;
- }
- 
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;
+}
+
 footer p:hover {
- -webkit-transform: scale(0.1);
- -moz-transform: scale(0.1);
- -o-transform: scale(0.1);
- color: orange;
- }
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    color: orange;
+}

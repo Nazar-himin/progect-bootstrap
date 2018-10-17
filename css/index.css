@@ -7,13 +7,11 @@
     margin: auto;
 }
 
-
-
 @media (max-width: 361px) {
     .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -29,27 +27,26 @@
     }
 }
 
-
 header {
     background-image: url(../img/backgroundfon.png);
 }
 
 .navbar-brand {
- -moz-transition: all 1s ease-out;
- -o-transition: all 1s ease-out;
- -webkit-transition: all 1s ease-out;
- }
- 
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
 .navbar-brand:hover {
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
- }
- 
- .container {
-     font-family: 'Pangolin', cursive;
- }
- 
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.container {
+    font-family: 'Pangolin', cursive;
+}
+
 .carousel-caption h5 {
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -104,16 +101,16 @@ header {
 }
 
 .select-service {
- -moz-transition: all 1s ease-out;
- -o-transition: all 1s ease-out;
- -webkit-transition: all 1s ease-out;
- }
- 
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
 .select-service:hover {
- -webkit-transform: scale(1.1);
- -moz-transform: scale(1.1);
- -o-transform: scale(1.1);
- }
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
 
 @media (min-width: 500px) {
     .services-list {
@@ -141,9 +138,9 @@ header {
     color: orange;
 }
 
-.parallax { 
+.parallax {
     background-image: url("../img/parallax-photo-one.jpg");
-    height: 650px; 
+    height: 650px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -167,46 +164,46 @@ header {
 
 @media (min-width: 500px) {
     .form-border {
-    margin: 50px;
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+        margin: 50px;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 @media (min-width: 600px) {
     .form-border {
-    margin: 10px;
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+        margin: 10px;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 @media (min-width: 750px) {
     .form-border {
-    margin: 10px;
-    padding: 80px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+        margin: 10px;
+        padding: 80px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 @media (min-width: 900px) {
     .form-border {
-    margin: 10px;
-    padding: 120px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+        margin: 10px;
+        padding: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
 @media (min-width: 1100px) {
     .form-border {
-    margin: 10px;
-    padding: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+        margin: 10px;
+        padding: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -220,7 +217,7 @@ header {
 }
 
 @media (max-width: 600px) {
-    .form-colums-name{
+    .form-colums-name {
         display: none;
     }
 }
@@ -254,8 +251,6 @@ form input, textarea {
     }
 }
 
-
-
 .contacts-container p {
     display: flex;
     align-items: center;
@@ -279,7 +274,6 @@ form input, textarea {
     height: 100%;
 }
 
-
 footer {
     background-image: url(../img/backgroundfooter.jpeg);
     min-height: 10vh;
@@ -295,18 +289,16 @@ footer {
     justify-content: center;
 }
 
-
-
 footer p {
     margin: auto;
- -moz-transition: all 3s ease-out;
- -o-transition: all 3s ease-out;
- -webkit-transition: all 3s ease-out;
- }
- 
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;
+}
+
 footer p:hover {
- -webkit-transform: scale(0.1);
- -moz-transform: scale(0.1);
- -o-transform: scale(0.1);
- color: orange;
- }
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    color: orange;
+}

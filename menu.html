@@ -1,110 +1,161 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <title>МЕНЮ</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/menu.css">
-</head>
-
-<body>
-    <div class="container">
-        <header class="sticky">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <img src="img/hamburger.png">
-  </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link smooth" href="index.html">Головна <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smooth" href="about.html">Про Нас</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle smooth" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Меню
-        </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="menu.html">Меню</a>
-                        <a class="dropdown-item" href="#">Холодні закуски</a>
-                        <a class="dropdown-item" href="#">Салати</a>
-                        <a class="dropdown-item" href="#">гарячі закуски</a>
-                        <a class="dropdown-item" href="#">Перші страви</a>
-                        <a class="dropdown-item" href="#">Основні страви</a>
-                        <a class="dropdown-item" href="#">Гарніри та соуси</a>
-                        <a class="dropdown-item" href="#">Десерти</a>
-                        <a class="dropdown-item" href="#">Барна карта</a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+        <title>МЕНЮ</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/menu.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="sticky">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="img/hamburger.png">
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link smooth" href="index.html">
+                                    Головна <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="about.html">Про Нас</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle smooth" href="index.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="menu.html">Меню</a>
+                                    <a class="dropdown-item" href="#">Холодні закуски</a>
+                                    <a class="dropdown-item" href="#">Салати</a>
+                                    <a class="dropdown-item" href="#">гарячі закуски</a>
+                                    <a class="dropdown-item" href="#">Перші страви</a>
+                                    <a class="dropdown-item" href="#">Основні страви</a>
+                                    <a class="dropdown-item" href="#">Гарніри та соуси</a>
+                                    <a class="dropdown-item" href="#">Десерти</a>
+                                    <a class="dropdown-item" href="#">Барна карта</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="../#services">Сервіси</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="../#events">Події</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="../#reservation">Резервація</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link smooth" href="../#contacts">Контакти</a>
+                            </li>
+                        </ul>
+                        <div class="basket-img">
+                            <a href="#">
+                                <img src="img/basket.png" alt="basket"></img>
+                            </a>
+                        </div>
+                        <div class="basket-text">
+                            <a href="#">Корзина</a>
+                        </div>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smooth" href="../#services">Сервіси</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smooth" href="../#events">Події</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smooth" href="../#reservation">Резервація</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link smooth" href="../#contacts">Контакти</a>
-                </li>
-            </ul>
-            <div class="basket-img">
-                <a href="#"><img src="img/basket.png" alt="basket"></img></a>
-            </div>
-            <div class="basket-text">
-                <a href="#">Корзина</a>
-            </div>
-        </div>
-    </nav>
-    </header>
-    <main>
-        <h2>МЕНЮ</h2>
-        <section class="main-section">
-        <nav class="menu-nav">
-            <a href="cold-dishes.html">Холодні&nbsp;закуски</a><br><br>
-            <a href="salats.html">Салати</a><br><br>
-            <a href="hot-dishes.html">Гарячі&nbsp;закуски</a><br><br>
-            <a href="first-dishes.html">Перші&nbsp;страви</a><br><br>
-            <a href="main-dishes.html">Основні&nbsp;страви</a><br><br>
-            <a href="garnirs.html">Гарніри&nbsp;і&nbsp;соуси</a><br><br>
-            <a href="sweets.html">Десерти</a><br><br>
-            <a href="bar-menu.html">Барна&nbsp;карта</a>
-        </nav>
-        <div class="menu-position">
-            <div class="menu-img"> <a href="cold-dishes.html"><img src="img/cheesplate.jpg" alt="cold-dishes">
-            <div class="menu-name">Холодні закуски</div></a>
-            </div>
-            <div class="menu-img"><a href="salats.html"><img src="img/salat.jpg" alt="salats"><div class="menu-name">Салати</div></a></div>
-            <div class="menu-img"><a href="hot-dishes.html"><img src="img/doner.jpg" alt="hot-dishes"><div class="menu-name">Гарячі закуски</div></a></div>
-            <div class="menu-img"><a href="first-dishes.html"><img src="img/shurpa.jpg" alt="first-dishes"><div class="menu-name">Перші страви</div></a></div>
-            <div class="menu-img"><a href="main-dishes.html"><img src="img/maindishes.jpg" alt="maindishes"><div class="menu-name">Основні страви</div></a></div>
-            <div class="menu-img"><a href="garnirs.html"><img src="img/potatos.jpg" alt="garnirs"><div class="menu-name">Гарніри</div></a></div>
-            <div class="menu-img"><a href="sweets.html"><img src="img/sweet.jpg" alt="sweets"><div class="menu-name">Десерти</div></a></div>
-            <div class="menu-img"><a href="bar-menu.html"><img src="img/bar.jpg" alt="bar"><div class="menu-name">Барна карта</div></a></div>
-        </div>
-        </section>
-    </main>
-    <footer>
-        <p>
-            <i>
-                  2018  |  StarWanderer  |  All rights reserved
+                </nav>
+            </header>
+            <main>
+                <h2>МЕНЮ</h2>
+                <section class="main-section">
+                    <nav class="menu-nav">
+                        <a href="cold-dishes.html">Холодні&nbsp;закуски</a>
+                        <br>
+                        <br>
+                        <a href="salats.html">Салати</a>
+                        <br>
+                        <br>
+                        <a href="hot-dishes.html">Гарячі&nbsp;закуски</a>
+                        <br>
+                        <br>
+                        <a href="first-dishes.html">Перші&nbsp;страви</a>
+                        <br>
+                        <br>
+                        <a href="main-dishes.html">Основні&nbsp;страви</a>
+                        <br>
+                        <br>
+                        <a href="garnirs.html">Гарніри&nbsp;і&nbsp;соуси</a>
+                        <br>
+                        <br>
+                        <a href="sweets.html">Десерти</a>
+                        <br>
+                        <br>
+                        <a href="bar-menu.html">Барна&nbsp;карта</a>
+                    </nav>
+                    <div class="menu-position">
+                        <div class="menu-img">
+                            <a href="cold-dishes.html">
+                                <img src="img/cheesplate.jpg" alt="cold-dishes">
+                                <div class="menu-name">Холодні закуски</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="salats.html">
+                                <img src="img/salat.jpg" alt="salats">
+                                <div class="menu-name">Салати</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="hot-dishes.html">
+                                <img src="img/doner.jpg" alt="hot-dishes">
+                                <div class="menu-name">Гарячі закуски</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="first-dishes.html">
+                                <img src="img/shurpa.jpg" alt="first-dishes">
+                                <div class="menu-name">Перші страви</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="main-dishes.html">
+                                <img src="img/maindishes.jpg" alt="maindishes">
+                                <div class="menu-name">Основні страви</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="garnirs.html">
+                                <img src="img/potatos.jpg" alt="garnirs">
+                                <div class="menu-name">Гарніри</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="sweets.html">
+                                <img src="img/sweet.jpg" alt="sweets">
+                                <div class="menu-name">Десерти</div>
+                            </a>
+                        </div>
+                        <div class="menu-img">
+                            <a href="bar-menu.html">
+                                <img src="img/bar.jpg" alt="bar">
+                                <div class="menu-name">Барна карта</div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>
+                    <i>2018  |  StarWanderer  |  All rights reserved
                 </i>
-        </p>
-    </footer>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="js/smooth-scroll.js"></script>
-</body>
-
+                </p>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="js/smooth-scroll.js"></script>
+    </body>
 </html>
